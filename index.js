@@ -13,33 +13,33 @@ var appData = {
 
 
     
-    // for (i = 0; i < 2; i++) {
-    // let mandatoryExpenditure = prompt("Введите обязательную статью расходов в этом месяце", ''),
-    //     cost = prompt("Во сколько обойдется?", '');
+    for (i = 0; i < 2; i++) {
+    let mandatoryExpenditure = prompt("Введите обязательную статью расходов в этом месяце", ''),
+        cost = prompt("Во сколько обойдется?", '');
 
-    //     if ( (typeof(mandatoryExpenditure)) === 'string' && (typeof(mandatoryExpenditure)) != null && (typeof(cost)) != null 
-    //     && mandatoryExpenditure != '' && cost != null && mandatoryExpenditure.length < 50) {
-    //         appData.expenses[mandatoryExpenditure] = cost;
-    //     }
-    //     else {
-    //         alert('Введите данные еще раз!');
-    //         i--;
-    //     }
-    // }
+        if ( (typeof(mandatoryExpenditure)) === 'string' && (typeof(mandatoryExpenditure)) != null && (typeof(cost)) != null 
+        && mandatoryExpenditure != '' && cost != null && mandatoryExpenditure.length < 50) {
+            appData.expenses[mandatoryExpenditure] = cost;
+        }
+        else {
+            alert('Введите данные еще раз!');
+            i--;
+        }
+    }
 
-     //while (with out if)
-    // var i = 0;
-    // while (i < 2) {
-    //     let mandatoryExpenditure = prompt("Введите обязательную статью расходов в этом месяце", ''),
-    //     cost = prompt("Во сколько обойдется?", '');
+        //while (with out if)
+    /* var i = 0;
+    while (i < 2) {
+        let mandatoryExpenditure = prompt("Введите обязательную статью расходов в этом месяце", ''),
+        cost = prompt("Во сколько обойдется?", '');
 
-    //     appData.expenses[mandatoryExpenditure] = cost;
-    //     i++
-    // }
+        appData.expenses[mandatoryExpenditure] = cost;
+        i++
+    } */
     
 
-    //do-while (with out if)
-    var i = 0;
+        //do-while (with out if)
+    /* var i = 0;
     do {
     let mandatoryExpenditure = prompt("Введите обязательную статью расходов в этом месяце", ''),
         cost = prompt("Во сколько обойдется?", '');
@@ -47,7 +47,7 @@ var appData = {
         appData.expenses[mandatoryExpenditure] = cost;
         i++
     }
-    while (i < 2);
+    while (i < 2); */
     
 
 appData.moneyPerDay = appData.budget / 30;        
